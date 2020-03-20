@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Induced Demand"
-date:   2020-3-20 12:00:00 -0400
+date:   2020-3-20 11:00:00 -0400
 categories: new-blog
 ---
 
