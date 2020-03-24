@@ -24,7 +24,7 @@ I haven't gotten to the part of learning about derivatives to know how options a
 
 You're deciding if you want to go to the pool in a few hours. It might rain, so you don't wanna commit to going yet. Having the option to go to the pool is valuable for you, because it ensures that you're not going to the pool when it's raining. This is an example of a real-life option being valuable. 
 
-But real-life options are not always valuable. In both the derivatives orange-option example and the real-life pool-option example, evaluating what the "correct choice is" is essentially free. In the case of the orange, simply check if the market price is higher or lower than the strike price of the option price. In the case of the pool, just poke your head outside and see if it's raining. 
+But real-life options are not always valuable. In both the derivatives orange-option example and the real-life pool-option example, evaluating what the "correct choice is" is essentially free. In the case of the orange, simply check if the market price is higher or lower than the strike price of the option on October 21st. In the case of the pool, just poke your head outside and see if it's raining right before you leave.
 
 But let's consider the (common) real-world cases where evaluating the alternatives is not so easy. In a simple case, the alternatives of the options might be computationally expensive to measure against each other. Imagine figuring out if it was raining required you to pay $100 (or, more reasonably, required you to call the pool and wait in a queue to talk to someone to see if they were planning on staying open if it rained). In this case, the expense of evaluating the alternatives makes the option less valuable. 
 
