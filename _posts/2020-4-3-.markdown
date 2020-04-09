@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Objects and Algorithms"
+date:   2020-4-100 0:00:00 -0400
+categories: new-blog
+---
+
+- Anything we can think of useful of an object is something with behaivor, or a formal specification (which essentially is its behavior).
+- Algorithms can operate on these objects.
+- There are things are are objects that don't seem like it, like a programming language, or something.
