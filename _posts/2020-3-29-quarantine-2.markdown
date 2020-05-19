@@ -35,6 +35,6 @@ So-so. I've done a pretty good job with this up until this weekend, but I need t
 
 There are some new goals I'd like to pick up!
 
-5. I'd like to steam programming, every day. You know, like on [Twitch](https://twitch.com/sagavcs). Subscribe, sometime :).
+5. I'd like to stream programming, every day. You know, like on [Twitch](https://twitch.com/sagavcs). Subscribe, sometime :).
 
 6. I'd like to be nicer to my family. Like, doing this around the house nice. And not being mean because I'm cooped up. I don't think I'm the worse offender here, but I'm also not helping :)
