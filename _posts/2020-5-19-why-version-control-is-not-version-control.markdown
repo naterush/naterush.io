@@ -5,7 +5,7 @@ date:   2020-5-19 0:00:00 -0400
 categories: new-blog
 ---
 
-Pre.S. This post disagrees with a [post by Abstract](https://www.abstract.com/blog/version-history-version-control/), a company one would expect Saga to be aligned with given our "async collaboration is better narratives." It's a great read, and if you had to pick a blog post to read, I'd pick theirs. And thanks for sending me the article [Andrew](https://andrewshen.net/) :).
+**Pre.S.** This post disagrees with a [post by Abstract](https://www.abstract.com/blog/version-history-version-control/), a company one would expect Saga to be aligned with given our "async collaboration is better narratives." It's a great read, and if you had to pick a blog post to read, I'd pick theirs. And thanks for sending me the article [Andrew](https://andrewshen.net/) :).
 
 # Current State >
 
