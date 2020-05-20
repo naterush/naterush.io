@@ -31,7 +31,7 @@ A fair question! I think there are a few partial answers.
 
 So: historical versions are pretty much free to keep around, and they both allow you to roll back (in the rare case that you need to) and also do more interesting things on your current state - like effectively merge two current states together!
 
-Notably, (2) and (3) are much more important in collaborative contexts. More people means rolling back happens more often. More interestingly, it means there are more tips on the current state tree, and so more reason to merge. So, the more collaborative the project and larger the team, the more keeping historical versions around actually helps you construct your current state.
+Notably, (2) and (3) are much more important in collaborative contexts. More people means rolling back happens more often. It also means there are more tips on the current state tree, and so more reason to merge. So, the more collaborative the project and larger the team, the more keeping historical versions around actually helps you construct your current state.
 
 # So What
 
