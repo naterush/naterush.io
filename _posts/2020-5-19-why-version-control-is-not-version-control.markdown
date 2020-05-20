@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Version Control is Not Version Control"
-date:   2020-5-18 0:00:00 -0400
+date:   2020-5-19 0:00:00 -0400
 categories: new-blog
 ---
 
