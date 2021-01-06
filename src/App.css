@@ -1,0 +1,12 @@
+.App {
+  --main-bg-color: #FFB997;
+  --card-bg-color: #2D94CD;
+  background-color: var(--main-bg-color);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

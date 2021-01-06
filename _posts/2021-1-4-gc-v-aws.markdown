@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Google Cloud v. AWS"
+date:   2020-6-3 0:00:00 -0400
+categories: new-blog
+---
+
+Deploying a static website on Google Cloud took more steps, literally, than on AWS. All anyone wants at the end of the day is a static website. Couldn't they optimize for that path a bit more?
