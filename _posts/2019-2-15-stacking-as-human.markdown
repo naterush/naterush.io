@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Light-speed, Nerf, and Abstraction"
+title:  "Stacking as Human"
 date:   2019-2-15 12:00:00 -0400
 categories: old-blog
 ---

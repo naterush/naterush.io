@@ -1,12 +1,22 @@
 .App {
-  --main-bg-color: #FFB997;
-  --card-bg-color: #2D94CD;
+  --main-bg-color: #FFFFF9;
+  --header-bg-color: #FFEFF3;
   background-color: var(--main-bg-color);
-  text-align: left;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
   font-size: calc(10px + 2vmin);
-  color: white;
+
+  font-family: "PT Serif", "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+div {
+  font-size: medium;
 }

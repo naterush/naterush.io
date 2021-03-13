@@ -1,18 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import ReactMarkdown from 'react-markdown'
 import './App.css';
 
-import CardCaraselle from './components/CardCaraselle';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
+
+import Header from './components/header/Header';
+import BlogPost from './components/BlogPost';
+import BlogPosts from './components/BlogPosts';
 
 function App() {
   return (
     <div className="App">
-      <CardCaraselle
-        caraselleNum={0}
-      />
-      <CardCaraselle
-        caraselleNum={1}
-      />
+      <Header/>
+      <Router>
+        <Switch>
+          <Route path="/blog/:id">
+            <BlogPost/>
+          </Route>
+          <Route path="/">
+            <BlogPosts/>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

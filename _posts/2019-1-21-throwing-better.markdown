@@ -10,7 +10,7 @@ As far as I know, the recent introduction of electricity to the pottery wheel wa
 
 Here are two proposals:
 
-## Auto-centering
+# Auto-centering
 
 If you’ve ever thrown before, you have had the lovely experience of being tossed around by a pottery wheel. If the center of mass is not in the center of the wheel, then the wheel jerks and becomes almost impossible to work with. As far as I can tell, keeping the clay centered in the main skill a beginning potter must learn. 
 
@@ -20,7 +20,7 @@ Like most tools, though this might remove some skill required to be a potter, it
 
 More generally, the idea of having sensors in the pottery wheel and using them to provide feedback to the user seems interesting and relevant to beginning potters (and pottery classes, for example).
 
-## Throwing in 3D
+# Throwing in 3D
 
 Pottery wheels spin in a single direction. What if we made pottery wheels that, through some fancy process of holding the clay, could rotate along different axises? Currently, pottery wheels in some way dictate that pots are symmetric about the vertical axis, as this is the axis of rotation. With a different axis of rotation, it possible that new pots could exist - as they could not be symmetric about this axis. 
 
