@@ -12,7 +12,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function Post({ params }) {
+export default async function Post(params: any) {
   const postData = getPostData(params.id);
   if (!postData) {
     notFound();
