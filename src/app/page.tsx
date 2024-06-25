@@ -28,7 +28,7 @@ export default function Home() {
       </main>
       <footer className="py-8">
         <section>
-          <p>Contact me @ <code>f"nate&#123;last_name.lower()&#125;&#123;1998-1&#125;@gmail.com"</code></p>
+          <p>Contact me @ <code>f&ldquonate&#123;last_name.lower()&#125;&#123;1998-1&#125;@gmail.com&ldquo</code></p>
         </section>
       </footer>
     </div>
