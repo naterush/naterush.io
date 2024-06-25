@@ -6,14 +6,14 @@ import { remark } from 'remark';
 import html from 'remark-html';
 
 export async function generateStaticParams() {
-  const paths = getAllPostIds();
-  return paths.map(path => ({
-    id: path.params.id,
+  const postIds = getAllPostIds();
+  return postIds.map(postId => ({
+    id: postId,
   }));
 }
 
 export default async function Post(params: any) {
-  const postData = getPostData(params.id);
+  const postData = getPostData(params.params.id);
   if (!postData) {
     notFound();
   }

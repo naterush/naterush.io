@@ -1,0 +1,429 @@
+
+> naterush.io@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.4
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/50) ...
+PARAMS {
+  params: { id: '2018-12-31-client-side-code-and-user-guarantees.markdown' },
+  searchParams: {}
+}
+ID 2018-12-31-client-side-code-and-user-guarantees.markdown
+PARAMS {
+  params: { id: '2018-12-31-client-side-code-and-user-guarantees.markdown' },
+  searchParams: {}
+}
+ID 2018-12-31-client-side-code-and-user-guarantees.markdown
+PARAMS {
+  params: { id: '2018-12-24-corporations-as-people.markdown' },
+  searchParams: {}
+}
+ID 2018-12-24-corporations-as-people.markdown
+PARAMS {
+  params: { id: '2018-12-24-corporations-as-people.markdown' },
+  searchParams: {}
+}
+ID 2018-12-24-corporations-as-people.markdown
+PARAMS {
+  params: { id: '2018-12-23-accountability-not-transparency.markdown' },
+  searchParams: {}
+}
+ID 2018-12-23-accountability-not-transparency.markdown
+PARAMS {
+  params: { id: '2018-12-23-accountability-not-transparency.markdown' },
+  searchParams: {}
+}
+ID 2018-12-23-accountability-not-transparency.markdown
+PARAMS {
+  params: { id: '2018-12-23-learning-from-the-old.markdown' },
+  searchParams: {}
+}
+ID 2018-12-23-learning-from-the-old.markdown
+PARAMS {
+  params: { id: '2018-12-23-learning-from-the-old.markdown' },
+  searchParams: {}
+}
+ID 2018-12-23-learning-from-the-old.markdown
+PARAMS {
+  params: { id: '2018-12-31-formal-methods-for-scam-detection.markdown' },
+  searchParams: {}
+}
+ID 2018-12-31-formal-methods-for-scam-detection.markdown
+PARAMS {
+  params: { id: '2018-12-31-formal-methods-for-scam-detection.markdown' },
+  searchParams: {}
+}
+ID 2018-12-31-formal-methods-for-scam-detection.markdown
+PARAMS {
+  params: {
+    id: '2018-12-31-correct-by-construction-correct-by-construction.markdown'
+  },
+  searchParams: {}
+}
+ID 2018-12-31-correct-by-construction-correct-by-construction.markdown
+PARAMS {
+  params: { id: '2018-12-31-types-of-understanding.markdown' },
+  searchParams: {}
+}
+ID 2018-12-31-types-of-understanding.markdown
+PARAMS {
+  params: { id: '2018-12-31-types-of-understanding.markdown' },
+  searchParams: {}
+}
+ID 2018-12-31-types-of-understanding.markdown
+PARAMS {
+  params: { id: '2019-1-17-community-as-a-protagonist.markdown' },
+  searchParams: {}
+}
+ID 2019-1-17-community-as-a-protagonist.markdown
+PARAMS {
+  params: { id: '2019-1-17-community-as-a-protagonist.markdown' },
+  searchParams: {}
+}
+ID 2019-1-17-community-as-a-protagonist.markdown
+PARAMS {
+  params: {
+    id: '2018-12-31-correct-by-construction-correct-by-construction.markdown'
+  },
+  searchParams: {}
+}
+ID 2018-12-31-correct-by-construction-correct-by-construction.markdown
+PARAMS { params: { id: '2018-12-20-a-new-idea.markdown' }, searchParams: {} }
+ID 2018-12-20-a-new-idea.markdown
+   Generating static pages (12/50) 
+PARAMS { params: { id: '2019-1-17-moar-media.markdown' }, searchParams: {} }
+ID 2019-1-17-moar-media.markdown
+PARAMS { params: { id: '2019-1-17-moar-media.markdown' }, searchParams: {} }
+ID 2019-1-17-moar-media.markdown
+PARAMS {
+  params: {
+    id: '2018-12-21-blockchain-governance-as-an-information-system.markdown'
+  },
+  searchParams: {}
+}
+ID 2018-12-21-blockchain-governance-as-an-information-system.markdown
+PARAMS { params: { id: '2019-1-17-sick-yo.markdown' }, searchParams: {} }
+ID 2019-1-17-sick-yo.markdown
+PARAMS { params: { id: '2019-1-17-sick-yo.markdown' }, searchParams: {} }
+ID 2019-1-17-sick-yo.markdown
+PARAMS {
+  params: {
+    id: '2019-1-17-vm-versioning-with-persistent-smart-contracts.markdown'
+  },
+  searchParams: {}
+}
+ID 2019-1-17-vm-versioning-with-persistent-smart-contracts.markdown
+PARAMS {
+  params: {
+    id: '2019-1-17-vm-versioning-with-persistent-smart-contracts.markdown'
+  },
+  searchParams: {}
+}
+ID 2019-1-17-vm-versioning-with-persistent-smart-contracts.markdown
+PARAMS { params: { id: '2018-12-20-a-new-idea.markdown' }, searchParams: {} }
+ID 2018-12-20-a-new-idea.markdown
+PARAMS {
+  params: { id: '2018-12-31-recursion-in-evolution.markdown' },
+  searchParams: {}
+}
+ID 2018-12-31-recursion-in-evolution.markdown
+PARAMS {
+  params: { id: '2019-1-21-throwing-better.markdown' },
+  searchParams: {}
+}
+ID 2019-1-21-throwing-better.markdown
+PARAMS {
+  params: { id: '2019-1-21-throwing-better.markdown' },
+  searchParams: {}
+}
+ID 2019-1-21-throwing-better.markdown
+PARAMS {
+  params: { id: '2018-12-31-recursion-in-evolution.markdown' },
+  searchParams: {}
+}
+ID 2018-12-31-recursion-in-evolution.markdown
+PARAMS {
+  params: { id: '2019-1-17-quantum-consensus-algorithms.markdown' },
+  searchParams: {}
+}
+ID 2019-1-17-quantum-consensus-algorithms.markdown
+PARAMS {
+  params: { id: '2019-11-1-against-index-variables.markdown' },
+  searchParams: {}
+}
+ID 2019-11-1-against-index-variables.markdown
+PARAMS {
+  params: { id: '2019-11-1-against-index-variables.markdown' },
+  searchParams: {}
+}
+ID 2019-11-1-against-index-variables.markdown
+PARAMS {
+  params: {
+    id: '2018-12-21-blockchain-governance-as-an-information-system.markdown'
+  },
+  searchParams: {}
+}
+ID 2018-12-21-blockchain-governance-as-an-information-system.markdown
+PARAMS {
+  params: { id: '2019-2-15-light-speed-nerf-and-abstraction.markdown' },
+  searchParams: {}
+}
+ID 2019-2-15-light-speed-nerf-and-abstraction.markdown
+PARAMS {
+  params: { id: '2019-2-15-light-speed-nerf-and-abstraction.markdown' },
+  searchParams: {}
+}
+ID 2019-2-15-light-speed-nerf-and-abstraction.markdown
+PARAMS {
+  params: { id: '2019-2-15-stacking-as-human.markdown' },
+  searchParams: {}
+}
+ID 2019-2-15-stacking-as-human.markdown
+PARAMS {
+  params: { id: '2019-2-15-stacking-as-human.markdown' },
+  searchParams: {}
+}
+ID 2019-2-15-stacking-as-human.markdown
+PARAMS {
+  params: { id: '2019-1-17-quantum-consensus-algorithms.markdown' },
+  searchParams: {}
+}
+ID 2019-1-17-quantum-consensus-algorithms.markdown
+PARAMS {
+  params: { id: '2019-2-7-robots-will-take-our-job-but-not-ours.markdown' },
+  searchParams: {}
+}
+ID 2019-2-7-robots-will-take-our-job-but-not-ours.markdown
+PARAMS {
+  params: { id: '2019-2-7-management-as-an-engineering-discipline.markdown' },
+  searchParams: {}
+}
+ID 2019-2-7-management-as-an-engineering-discipline.markdown
+PARAMS {
+  params: { id: '2019-2-7-management-as-an-engineering-discipline.markdown' },
+  searchParams: {}
+}
+ID 2019-2-7-management-as-an-engineering-discipline.markdown
+PARAMS {
+  params: { id: '2019-2-7-robots-will-take-our-job-but-not-ours.markdown' },
+  searchParams: {}
+}
+ID 2019-2-7-robots-will-take-our-job-but-not-ours.markdown
+PARAMS {
+  params: { id: '2019-3-11-eighth-grade-optimism.markdown' },
+  searchParams: {}
+}
+ID 2019-3-11-eighth-grade-optimism.markdown
+PARAMS {
+  params: { id: '2019-3-11-eighth-grade-optimism.markdown' },
+  searchParams: {}
+}
+ID 2019-3-11-eighth-grade-optimism.markdown
+   Generating static pages (24/50) 
+PARAMS {
+  params: { id: '2019-2-7-more-radical-than-you-think.markdown' },
+  searchParams: {}
+}
+ID 2019-2-7-more-radical-than-you-think.markdown
+PARAMS {
+  params: { id: '2019-2-7-more-radical-than-you-think.markdown' },
+  searchParams: {}
+}
+ID 2019-2-7-more-radical-than-you-think.markdown
+PARAMS {
+  params: { id: '2019-7-17-review-nilered.markdown' },
+  searchParams: {}
+}
+ID 2019-7-17-review-nilered.markdown
+PARAMS {
+  params: { id: '2019-7-17-review-nilered.markdown' },
+  searchParams: {}
+}
+ID 2019-7-17-review-nilered.markdown
+PARAMS {
+  params: { id: '2019-6-10-trust-the-process.markdown' },
+  searchParams: {}
+}
+ID 2019-6-10-trust-the-process.markdown
+PARAMS {
+  params: { id: '2019-6-10-trust-the-process.markdown' },
+  searchParams: {}
+}
+ID 2019-6-10-trust-the-process.markdown
+PARAMS {
+  params: { id: '2019-7-8-sorry-mr-wallace.markdown' },
+  searchParams: {}
+}
+ID 2019-7-8-sorry-mr-wallace.markdown
+PARAMS {
+  params: { id: '2019-7-8-sorry-mr-wallace.markdown' },
+  searchParams: {}
+}
+ID 2019-7-8-sorry-mr-wallace.markdown
+PARAMS {
+  params: { id: '2019-7-8-data-driven-happiness.markdown' },
+  searchParams: {}
+}
+ID 2019-7-8-data-driven-happiness.markdown
+PARAMS {
+  params: { id: '2019-7-8-data-driven-happiness.markdown' },
+  searchParams: {}
+}
+ID 2019-7-8-data-driven-happiness.markdown
+PARAMS { params: { id: '2020-3-12-self-hosting.markdown' }, searchParams: {} }
+ID 2020-3-12-self-hosting.markdown
+PARAMS { params: { id: '2020-3-12-self-hosting.markdown' }, searchParams: {} }
+ID 2020-3-12-self-hosting.markdown
+PARAMS {
+  params: { id: '2019-6-22-depression-from-existential-dread.markdown' },
+  searchParams: {}
+}
+ID 2019-6-22-depression-from-existential-dread.markdown
+PARAMS {
+  params: { id: '2019-6-22-depression-from-existential-dread.markdown' },
+  searchParams: {}
+}
+ID 2019-6-22-depression-from-existential-dread.markdown
+PARAMS {
+  params: { id: '2020-3-20-induced-demand.markdown' },
+  searchParams: {}
+}
+ID 2020-3-20-induced-demand.markdown
+PARAMS {
+  params: { id: '2020-3-20-induced-demand.markdown' },
+  searchParams: {}
+}
+ID 2020-3-20-induced-demand.markdown
+PARAMS { params: { id: '2020-3-24-options.markdown' }, searchParams: {} }
+ID 2020-3-24-options.markdown
+PARAMS { params: { id: '2020-3-24-options.markdown' }, searchParams: {} }
+ID 2020-3-24-options.markdown
+PARAMS { params: { id: '2020-3-12-quarantine-1.markdown' }, searchParams: {} }
+ID 2020-3-12-quarantine-1.markdown
+PARAMS { params: { id: '2020-3-12-quarantine-1.markdown' }, searchParams: {} }
+ID 2020-3-12-quarantine-1.markdown
+PARAMS { params: { id: '2020-3-30-taste-reset.markdown' }, searchParams: {} }
+ID 2020-3-30-taste-reset.markdown
+PARAMS { params: { id: '2020-3-30-taste-reset.markdown' }, searchParams: {} }
+ID 2020-3-30-taste-reset.markdown
+PARAMS { params: { id: '2020-3-29-quarantine-2.markdown' }, searchParams: {} }
+ID 2020-3-29-quarantine-2.markdown
+PARAMS { params: { id: '2020-3-29-quarantine-2.markdown' }, searchParams: {} }
+ID 2020-3-29-quarantine-2.markdown
+PARAMS {
+  params: { id: '2020-4-1-product-vs-protocol.markdown' },
+  searchParams: {}
+}
+ID 2020-4-1-product-vs-protocol.markdown
+PARAMS {
+  params: { id: '2020-4-1-product-vs-protocol.markdown' },
+  searchParams: {}
+}
+ID 2020-4-1-product-vs-protocol.markdown
+   Generating static pages (37/50) 
+PARAMS { params: { id: '2020-4-2-taste-reset-2.markdown' }, searchParams: {} }
+ID 2020-4-2-taste-reset-2.markdown
+PARAMS { params: { id: '2020-4-2-taste-reset-2.markdown' }, searchParams: {} }
+ID 2020-4-2-taste-reset-2.markdown
+PARAMS {
+  params: { id: '2020-4-8-on-generalized-platforms.markdown' },
+  searchParams: {}
+}
+ID 2020-4-8-on-generalized-platforms.markdown
+PARAMS {
+  params: { id: '2020-5-18-fuck-it-well-do-it-live.markdown' },
+  searchParams: {}
+}
+ID 2020-5-18-fuck-it-well-do-it-live.markdown
+PARAMS {
+  params: { id: '2021-3-21-everyones-dog-died-this-year.markdown' },
+  searchParams: {}
+}
+ID 2021-3-21-everyones-dog-died-this-year.markdown
+PARAMS {
+  params: { id: '2021-3-21-everyones-dog-died-this-year.markdown' },
+  searchParams: {}
+}
+ID 2021-3-21-everyones-dog-died-this-year.markdown
+PARAMS {
+  params: {
+    id: '2020-6-3-spreadsheets-are-the-ultimate-programming-paradigm%20copy.markdown'
+  },
+  searchParams: {}
+}
+ID 2020-6-3-spreadsheets-are-the-ultimate-programming-paradigm%20copy.markdown
+PARAMS {
+  params: {
+    id: '2020-6-3-spreadsheets-are-the-ultimate-programming-paradigm%20copy.markdown'
+  },
+  searchParams: {}
+}
+ID 2020-6-3-spreadsheets-are-the-ultimate-programming-paradigm%20copy.markdown
+PARAMS {
+  params: { id: '2020-8-10-on-heuristics.markdown' },
+  searchParams: {}
+}
+ID 2020-8-10-on-heuristics.markdown
+PARAMS {
+  params: { id: '2020-8-10-on-heuristics.markdown' },
+  searchParams: {}
+}
+ID 2020-8-10-on-heuristics.markdown
+PARAMS {
+  params: {
+    id: '2020-5-19-why-version-control-is-not-version-control.markdown'
+  },
+  searchParams: {}
+}
+ID 2020-5-19-why-version-control-is-not-version-control.markdown
+PARAMS {
+  params: {
+    id: '2020-5-19-why-version-control-is-not-version-control.markdown'
+  },
+  searchParams: {}
+}
+ID 2020-5-19-why-version-control-is-not-version-control.markdown
+PARAMS {
+  params: { id: '2020-5-18-fuck-it-well-do-it-live.markdown' },
+  searchParams: {}
+}
+ID 2020-5-18-fuck-it-well-do-it-live.markdown
+PARAMS {
+  params: { id: '2020-4-8-on-generalized-platforms.markdown' },
+  searchParams: {}
+}
+ID 2020-4-8-on-generalized-platforms.markdown
+PARAMS {
+  params: {
+    id: '2021-7-22-anthropogenic-effects-and-reproduction-success%20copy.markdown'
+  },
+  searchParams: {}
+}
+ID 2021-7-22-anthropogenic-effects-and-reproduction-success%20copy.markdown
+PARAMS {
+  params: {
+    id: '2021-7-22-anthropogenic-effects-and-reproduction-success%20copy.markdown'
+  },
+  searchParams: {}
+}
+ID 2021-7-22-anthropogenic-effects-and-reproduction-success%20copy.markdown
+PARAMS {
+  params: { id: '2021-4-5-clarity-please.markdown' },
+  searchParams: {}
+}
+ID 2021-4-5-clarity-please.markdown
+PARAMS {
+  params: { id: '2021-4-5-clarity-please.markdown' },
+  searchParams: {}
+}
+ID 2021-4-5-clarity-please.markdown
+PARAMS { params: { id: '2021-8-1-in-motion.markdown' }, searchParams: {} }
+ID 2021-8-1-in-motion.markdown
+PARAMS { params: { id: '2021-8-1-in-motion.markdown' }, searchParams: {} }
+ID 2021-8-1-in-motion.markdown
+ ✓ Generating static pages (50/50)

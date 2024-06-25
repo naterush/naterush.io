@@ -4,7 +4,7 @@ import path from 'path';
 import matter from 'gray-matter';
 
 // The directory where the posts are stored is public/_posts
-const postsDirectory = path.join(process.cwd(), 'public/_posts');
+const postsDirectory = path.join('public/_posts');
 
 export type PostData = {
   id: string;
@@ -34,15 +34,9 @@ export function getSortedPostsData(): PostData[] {
   return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export function getAllPostIds(): { params: { id: string } }[] {
+export function getAllPostIds(): string[] {
   const fileNames = fs.readdirSync(postsDirectory);
-  return fileNames.map(fileName => {
-    return {
-      params: {
-        id: fileName.replace(/\.md$/, '')
-      }
-    };
-  });
+  return fileNames;
 }
 
 export function getPostData(id: string): PostDataWithContent {
