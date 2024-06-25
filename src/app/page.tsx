@@ -16,7 +16,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-4">Blog Posts</h2>
           <ul className="list-none p-0">
             {allPostsData.map(({ id, date, title }) => (
-              <li key={id} className="mb-4">
+              <li key={id} className="mb-4 p-0">
                 <Link href={`/posts/${id}`}>
                   <div className="text-blue-600">{title}</div>
                 </Link>
@@ -26,7 +26,11 @@ export default function Home() {
           </ul>
         </section>
       </main>
-      <footer className="py-8"></footer>
+      <footer className="py-8">
+        <section>
+          <p>Contact me @ <code>f"nate&#123;last_name.lower()&#125;&#123;1998-1&#125;@gmail.com"</code></p>
+        </section>
+      </footer>
     </div>
   );
 }
