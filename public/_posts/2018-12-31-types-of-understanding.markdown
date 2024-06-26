@@ -2,7 +2,8 @@
 layout: post
 title:  "Types of Understanding"
 date:   2018-12-31 12:00:00 -0400
-categories: old-blog
+categories:
+  - reflection
 ---
 I’m a total type theory noob. When I say I “like Type Theory,” I’m mostly just saying I like type systems that stop me from creating stupid bugs when writing stupid code. 
 

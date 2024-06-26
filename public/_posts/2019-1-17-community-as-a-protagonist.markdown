@@ -2,7 +2,8 @@
 layout: post
 title:  "Community as a Protagonist"
 date:   2019-1-17 12:00:00 -0400
-categories: old-blog
+categories:
+  - media
 ---
 Main characters dying in books or movies or video games is usually shocking. Some authors (like George RR Martin) kill characters more frequently than most - and become known for it simply because it’s so rare.
 

@@ -2,7 +2,8 @@
 layout: post
 title:  "What I think science is part 1"
 date:   2021-10-15 0:00:00 -0400
-categories: new-blog
+categories:
+  - world-model
 ---
 1. Science is a process that is designed to drive human knowledge towards objective truth.
     1. It therefore assumes there is such thing as an objective truth.

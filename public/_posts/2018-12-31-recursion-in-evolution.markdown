@@ -2,7 +2,9 @@
 layout: post
 title:  "Recursion in Evolution"
 date:   2018-12-31 12:00:00 -0400
-categories: old-blog
+categories:
+  - evolution
+  - world-model
 ---
 
 Disclaimer: my biology knowledge ends at 9th grade bio - so everything in this blog post is pretty much fake. 

@@ -2,7 +2,9 @@
 layout: post
 title:  "Formal Methods for Scam Detection"
 date:   2018-12-31 12:00:00 -0400
-categories: old-blog
+categories:
+  - blockchain
+  - security
 ---
 
 I read a paper recently where the papers authors analyzed how often Ethereum ICOs delivered on the what they promised in their white paper. More specifically, the authors checked promises like “there will be at most 1000 tokens” and “the pre-mine will be escrowed” with the actual contract code that was deployed on the Ethereum main net. 

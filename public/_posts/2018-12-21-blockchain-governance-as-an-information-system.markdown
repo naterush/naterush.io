@@ -2,7 +2,8 @@
 layout: post
 title:  "Blockchain Governance as an Information System"
 date:   2018-12-21 12:00:00 -0400
-categories: old-blog
+categories:
+  - blockchain
 ---
 I just finished reading the essay [“Common-Knowledge Attacks on Democracy.“](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3273111) To summarize the essay’s interesting points: democratic states are information systems with some properties (e.g. free speech, aka openness); these properties allow enemies of the state to to inspire fear and doubt and confusion in the public about issues by “flooding the airwaves” (aka trolling); these attacks are most detrimental when they cause the public to question what should be “common knowledge” - for example if the voting system is fair. Even simpler: the openness of democracies make them easier to attack in bad ways. 
 

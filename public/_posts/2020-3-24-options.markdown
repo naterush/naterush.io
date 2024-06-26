@@ -2,7 +2,8 @@
 layout: post
 title:  "Options"
 date:   2020-3-24 00:00:00 -0400
-categories: new-blog
+categories:
+  - world-model
 ---
 
 I know very little about derivatives. I started learning about them yesterday, so take everything I say with a grain of salt the size of one of those Himalayan salt lamps. 

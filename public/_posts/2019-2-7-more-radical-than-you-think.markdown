@@ -2,7 +2,8 @@
 layout: post
 title:  "More Radical than You Think"
 date:   2019-2-7 12:00:00 -0400
-categories: old-blog
+categories:
+  - world-model
 ---
 People making predictions about technology is always a terrible idea (if you value being correct). But even articles that acknowledge that trying to make these predictions are a terrible idea try and make predictions anyways.
 

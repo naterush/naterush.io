@@ -2,7 +2,8 @@
 layout: post
 title:  "Anthropogenic Effects and Reproduction Success"
 date:   2021-7-22 0:00:00 -0400
-categories: new-blog
+categories:
+  - world-model
 ---
 Or: careful what your sampling from, if you’re even sample at all. 
 

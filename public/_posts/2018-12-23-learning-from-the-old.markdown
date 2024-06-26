@@ -2,7 +2,8 @@
 layout: post
 title:  "Learning From the Old"
 date:   2018-12-23 12:00:00 -0400
-categories: old-blog
+categories:
+  - reflection
 ---
 My dad was big into computer graphics in the late 80s and early 90s. He worked at an IBM research lab - drawing cubes and spheres and manipulating matrixes and generally being pretty happy, I think. 
 

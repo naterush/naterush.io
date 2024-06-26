@@ -2,7 +2,8 @@
 layout: post
 title:  "Taste Reset"
 date:   2020-3-30 00:00:00 -0400
-categories: new-blog
+categories:
+  - reflection
 ---
 
 Here's a terrible idea: I'd like to reset my preferences. 

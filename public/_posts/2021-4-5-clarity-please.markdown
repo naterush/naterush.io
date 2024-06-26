@@ -2,7 +2,9 @@
 layout: post
 title:  "Clarity, Please"
 date:   2021-4-5 0:00:00 -0400
-categories: new-blog
+categories:
+  - reflection
+  - world-model
 ---
 Clarity was missing from most of the classes that I took in school. I think that this is one of the major problems that I had with my education. 
 

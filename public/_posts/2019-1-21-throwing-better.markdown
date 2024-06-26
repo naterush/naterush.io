@@ -2,7 +2,8 @@
 layout: post
 title:  "Throwing Better"
 date:   2019-1-21 12:00:00 -0400
-categories: old-blog
+categories:
+  - inventions
 ---
 I’ve thrown a single bowl in my life. It was hard as hell, terrific fun, and looked terrible at the end. Is there some improvement we can make to the process? The first potter’s wheel ever recorded is from 3129 BC - and although the struggle is part of the charm, I think there’s value in making the process easier, if the potter so desires.
 

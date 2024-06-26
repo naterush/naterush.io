@@ -2,7 +2,8 @@
 layout: post
 title:  "Light-speed, Nerf, and Abstraction"
 date:   2019-2-15 12:00:00 -0400
-categories: old-blog
+categories:
+  - inventions
 ---
 I used to love Nerf guns. Sometime in middle school, I started trying to modify the few Nerf guns I had to shoot faster and farther. I’m using the world modify loosely, because all I did was “throw my arm” before pulling the trigger mid-throw. It was a surprisingly effective tactic, and if I remember correctly, it led to the bullets shooting about 1.5x as far.
 

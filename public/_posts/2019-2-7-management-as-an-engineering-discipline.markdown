@@ -2,7 +2,8 @@
 layout: post
 title:  "Management As an Engineering Discipline"
 date:   2019-2-7 12:00:00 -0400
-categories: old-blog
+categories:
+  - world-model
 ---
 Bridges conform to rigorous standards, else they fall. And so usually they confirm to the standards. Teams don’t really conform to any standards, and they fail all the time. What would it look like to make bridges into an engineering discipline? 
 

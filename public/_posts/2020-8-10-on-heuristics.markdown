@@ -2,7 +2,8 @@
 layout: post
 title:  "On Heuristics"
 date:   2020-8-10 0:00:00 -0400
-categories: new-blog
+categories:
+  - world-model
 ---
 
 **TL;DR:** Heuristics are naturally an expression of special cases. Special cases, when expressed in code, are often messy and hard to write, maintain, test, and document. As such, writing code to deal with heuristics should always be put off until you bump into the case the heuristic is meant to deal with.

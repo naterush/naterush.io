@@ -2,7 +2,8 @@
 layout: post
 title:  "Quarantine 1"
 date:   2020-3-12 1:00:00 -0400
-categories: new-blog quarantine
+categories:
+  - reflection
 ---
 
 It seems like we're going to enter into harsh "social distancing" mode as a US-of-A pretty soon. Which is pretty scary, but mostly really sad. Missing the last two months of senior year is an absolute bummer :(

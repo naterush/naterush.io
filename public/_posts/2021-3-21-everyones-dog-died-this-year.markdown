@@ -2,7 +2,10 @@
 layout: post
 title:  "Everyone's Dog Died This Year"
 date:   2021-3-21 0:00:00 -0400
-categories: new-blog
+categories:
+  - reflection
+  - system-design
+  - creative
 ---
 Well, not everyone. But a lot of my friends had dogs that died this year. Practically this manifested as everyone being sad about their dog out pretty much the same time. 
 
@@ -12,7 +15,7 @@ Well, not everyone. But a lot of my friends had dogs that died this year. Practi
 
 My parents wanted to sell their house this year. They were in the house for about 15 years and remodeled it about 10 years ago. They got everything ready to sell which means painting the walls and repaint the doors and fixing the lightbulbs and relandscaping parts of the garden and generally just fixing up all the things that have broken over the past couple years.
 
-It's interesting because since they did that our mailbox is broken our fridge has broken the front steps of the house fell off the air-conditioning is broken at the washer the bathroom has flooded the fixtures in both bathrooms don't work. Generally the house is just falling apart.
+It's interesting because since they did that our mailbox is broken and our fridge has broken and the front steps of the house fell off and the air-conditioning is broken and the washer and the bathroom has flooded and the fixtures in both bathrooms don't work. Generally, the house is just falling apart.
 
 Not the whole house. But enough of the house that it feels like it's the whole house.
 

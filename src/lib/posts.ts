@@ -10,6 +10,7 @@ export type PostData = {
   id: string;
   title: string;
   date: string;
+  categories: string[];
 };
 
 export type PostDataWithContent = PostData & {

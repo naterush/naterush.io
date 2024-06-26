@@ -2,7 +2,8 @@
 layout: post
 title:  "Quarantine 2"
 date:   2020-3-29 00:00:00 -0400
-categories: new-blog
+categories:
+  - reflection
 ---
 
 Quarantine update! I'm excited to write this post for no reason, which just goes to show you how much quarantine can addle your brain. 

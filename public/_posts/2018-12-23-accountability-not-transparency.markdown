@@ -2,7 +2,8 @@
 layout: post
 title:  "Accountability not Transparency"
 date:   2018-12-23 12:00:00 -0400
-categories: old-blog
+categories:
+  - blockchain
 ---
 Blockchain is often touted as a corruption-stopper. The idea: government payments can be put on the blockchain, and because these transactions are public, any fraudulent ones will be noticed.
 

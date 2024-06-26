@@ -2,7 +2,8 @@
 layout: post
 title:  "Squirrel Strategies"
 date:   2022-3-28 0:00:00 -0400
-categories: new-blog
+categories:
+  - world-model
 ---
 Squirrels bury nuts for the winter, across a variety of hidey-holes. During the winter, they only dig up about 78% of these nuts. 
 

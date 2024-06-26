@@ -2,7 +2,8 @@
 layout: post
 title:  "Data-Driven Happiness"
 date:   2019-7-8 12:00:00 -0400
-categories: old-blog
+categories:
+  - reflection
 ---
 What makes me happy: a sunny day in a green park; a good run that makes you swear; a funny friend and a silly joke; a productive day and interesting work. I think. Or it could be the opposite. I realized that I haven’t really been tapping into the data sources available to me (like my own brain, or my internet history), and keeping track of what makes me happy and what makes me sad — or what makes me fulfilled and what makes me empty. Etc. 
 

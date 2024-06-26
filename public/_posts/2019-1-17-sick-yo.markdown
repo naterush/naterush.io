@@ -2,7 +2,8 @@
 layout: post
 title:  "Sick, Yo"
 date:   2019-1-17 12:00:00 -0400
-categories: old-blog
+categories:
+  - reflection
 ---
 When I was in the 11th grade, at the height of my (JV) soccer career, I got hit in the head with a soccer ball. And got a very mild concussion. Classic. 
 

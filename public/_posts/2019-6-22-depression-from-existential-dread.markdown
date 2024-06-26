@@ -2,7 +2,8 @@
 layout: post
 title:  "Depression from Existential Dread"
 date:   2019-6-10 12:00:00 -0400
-categories: old-blog
+categories:
+  - world-model
 ---
 There’s been a recent trend on [Twitter](https://twitter.com/maxlevoiceover2/status/1113412438148382722) and [Reddit](https://www.reddit.com/r/climatechange/comments/a06g05/anyone_else_get_depressed_about_climate_change/) to attribute mental illness trends to “how fucked” the world is. The claim: depression and anxiety are increasing because of the state of the world  — global warming, Trump, shootings, other terrible things. Millennial are depressed, at least in part, because of how the earth is screwed beyond repair. 
 

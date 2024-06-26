@@ -2,7 +2,8 @@
 layout: post
 title:  "Sorry, Mr. Wallace"
 date:   2019-7-8 12:00:00 -0400
-categories: old-blog
+categories:
+  - media
 ---
 David Foster Wallace’s [This is Water](https://www.youtube.com/watch?v=8CrOL-ydFMI) is a senior-year-of-highschool/college classic. Wallace introduces the new graduates to some pervasive perversities of American adult life; making a choice about what to pay attention to, he argues, is a matter of life and death. This point is seems rather depressive (if true), and is tragically underlined by his suicide in 2008.
 

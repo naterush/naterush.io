@@ -2,7 +2,8 @@
 layout: post
 title:  "A New Idea"
 date:   2018-12-20 12:00:00 -0400
-categories: old-blog
+categories:
+  - blog
 ---
 Welcome (me) to my new new blog. I’m creating this for the standard reasons: a selfish wish to share my personal thoughts, and deep existential dread. It won’t properly address either. 
 

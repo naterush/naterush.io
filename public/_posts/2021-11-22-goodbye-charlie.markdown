@@ -2,7 +2,8 @@
 layout: post
 title:  "Goodbye, Charlie"
 date:   2021-11-22 0:00:00 -0400
-categories: new-blog
+categories:
+  - reflection
 ---
 Charlie died last night. It was probably around 8PM. I was walking out from behind the kitchen bar, to do something or other, and he was laying on the carpet right next to the table. As soon as I saw him, I knew that he was dead - I could just see it. Something about the total lack of movement just made it obvious. 
 

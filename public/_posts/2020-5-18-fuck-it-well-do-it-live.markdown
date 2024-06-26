@@ -2,7 +2,9 @@
 layout: post
 title:  "Fuck It, We'll do it Live"
 date:   2020-5-18 0:00:00 -0400
-categories: new-blog
+categories:
+  - product
+  - spreadsheets
 ---
 
 # Live Collaboration

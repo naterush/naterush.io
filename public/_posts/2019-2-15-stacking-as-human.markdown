@@ -2,7 +2,8 @@
 layout: post
 title:  "Stacking as Human"
 date:   2019-2-15 12:00:00 -0400
-categories: old-blog
+categories:
+  - invention
 ---
 All the greatest things are just stacks of other less great things. Sandwiches? Just a big stack of bread, meat, cheese, pickles. Skyscrapers? Just a big stack of regular buildings.
 

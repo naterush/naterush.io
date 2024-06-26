@@ -2,7 +2,8 @@
 layout: post
 title:  "What I think science is part 2"
 date:   2021-11-15 0:00:00 -0400
-categories: new-blog
+categories:
+  - world-model
 ---
 - Science is the search for truth about the universe, at a variety of levels of detail and rigor. Let us consider a very simple toy universe, and see what we might say:
     - The state of the universe is initially 0.

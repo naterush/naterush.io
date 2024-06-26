@@ -2,7 +2,8 @@
 layout: post
 title:  "Eighth-Grade Optimism"
 date:   2019-3-11 12:00:00 -0400
-categories: old-blog
+categories:
+  - media
 ---
 Eighth Grade is a painful movie. I fast-forwarded bits of conversation to avoid the second-hand embarrassment.
 

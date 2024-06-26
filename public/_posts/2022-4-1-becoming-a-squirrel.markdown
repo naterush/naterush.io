@@ -2,7 +2,8 @@
 layout: post
 title:  "Becoming a squirrel"
 date:   2022-4-1 0:00:00 -0400
-categories: new-blog
+categories:
+  - world-model
 ---
 My previous post describes where a lack of long-term thinking can still lead to long-term planning that leads to "evolutionary success." To review, here are three necessary conditions for this to be satisfied:
 

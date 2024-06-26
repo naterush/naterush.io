@@ -2,7 +2,8 @@
 layout: post
 title:  "VM Versioning with Persistent Smart Contracts"
 date:   2019-1-17 12:00:00 -0400
-categories: old-blog
+categories:
+  - blockchain
 ---
 The [most recent Ethereum Hardfork](https://blog.ethereum.org/2019/01/15/security-alert-ethereum-constantinople-postponement/) didn’t happen. Shortly before the hard fork block, a bug was found; pretty much, old code relied on certain invariants holding for some op-code (SSTORE), and the semantics of the op-code was changing with the hardfork. Bugs could have been introduced. As a result, the community decided to postpone the hardfork. 
 

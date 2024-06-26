@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Unintelligent Design"
-date:   2022-5-15 0:00:00 -0400
-categories: new-blog
+date:   2022-8-15 0:00:00 -0400
+categories:
+  - world-model
 ---
 
 I started writing the below when I saw a squirrel run up a tree, and was at the time thinking about Mito's goal of 5% growth weekly. I ended up here. Lots of unfinished work at the end.

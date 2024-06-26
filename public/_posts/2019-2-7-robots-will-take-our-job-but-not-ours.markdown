@@ -2,7 +2,9 @@
 layout: post
 title:  "Robots will Take Our Jobs, But Not Ours"
 date:   2019-2-7 12:00:00 -0400
-categories: old-blog
+categories:
+  - world-model
+  - ai-safety
 ---
 Just based on the amount of new automation in manufacturing and supply chains and various other simple-services, it’s easy to say “wow, these robots and low-form AIs are going to take some of our jobs.”
 

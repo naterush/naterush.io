@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "The easiest path it takes, the easiest path it makes"
-date:   2022-11-1 0:00:00 -0400
-categories: new-blog
+date:   2023-2-1 0:00:00 -0400
+categories:
+  - world-model
 ---
 
 In the stream down on the golf course, there is a rock that splits the flow of the water in half. This rock is a new element of the stream - I’ve been mucking about in the mud down there for years, and have surprisingly many memories about what it all looks like.

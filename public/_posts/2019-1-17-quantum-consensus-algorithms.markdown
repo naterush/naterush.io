@@ -2,7 +2,8 @@
 layout: post
 title:  "Quantum Consensus Algorithms"
 date:   2019-1-17 12:00:00 -0400
-categories: old-blog
+categories:
+  - blockchain
 ---
 DISCLAIMER: I have no idea what I’m talking about. 
 

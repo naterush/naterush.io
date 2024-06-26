@@ -2,7 +2,9 @@
 layout: post
 title:  "On Generalized Platforms"
 date:   2020-4-8 0:00:00 -0400
-categories: new-blog
+categories:
+  - blockchain
+  - product
 ---
 
 # Inspiration 

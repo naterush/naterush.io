@@ -2,7 +2,8 @@
 layout: post
 title:  "Correct by Construction Correct by Construction"
 date:   2018-12-31 12:00:00 -0400
-categories: old-blog
+categories:
+  - math
 ---
 The Correct by Construction (CBC) design process is a very interesting. The general idea can be summarized as: 
 

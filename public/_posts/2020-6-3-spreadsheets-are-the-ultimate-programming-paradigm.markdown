@@ -2,7 +2,9 @@
 layout: post
 title:  "Spreadsheets are the Ultimate Programming Paradigm"
 date:   2020-6-3 0:00:00 -0400
-categories: new-blog
+categories:
+  - product
+  - spreadsheets
 ---
 
 Functional programming? Eh. Objects? Maybe sometimes. But spreadsheets... spreadsheets are the ultimate programming paradigm.

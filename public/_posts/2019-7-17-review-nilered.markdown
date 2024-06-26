@@ -2,7 +2,8 @@
 layout: post
 title:  "Review: NileRed"
 date:   2019-7-17 12:00:00 -0400
-categories: old-blog
+categories:
+  - media
 ---
 This is the start of a new series on this blog. The goal: review things I find on the internet that I find particularly interesting or cool or ~yes~. More specifically, I’ll try and justify why I feel this way. 
 

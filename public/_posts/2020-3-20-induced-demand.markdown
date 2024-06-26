@@ -2,7 +2,9 @@
 layout: post
 title:  "Induced Demand"
 date:   2020-3-20 11:00:00 -0400
-categories: new-blog
+categories:
+  - blockchain
+  - world-model
 ---
 
 City streets and computer hardware and blockchain throughput. We dream that "make bigger, make faster" will alleviate congestion in all of these places, and make our comute and compute as fast and cheap as we want it to be. 

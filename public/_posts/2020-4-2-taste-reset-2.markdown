@@ -2,7 +2,8 @@
 layout: post
 title:  "Taste Reset 2"
 date:   2020-4-2 00:00:00 -0400
-categories: new-blog
+categories:
+  - reflection
 ---
 
 Yeah, ok, the Taste Reset is not gonna happen. There's just no way I could really solicit good input from my friends with music, on an open platform. If I asked them indivigually, sure, they'd support. But an open platform? I'm asking to get trolled. 

@@ -2,7 +2,8 @@
 layout: post
 title:  "Against Index Variables"
 date:   2019-11-1 12:00:00 -0400
-categories: old-blog
+categories:
+  - world-model
 ---
 I don’t think that the economists of the future will use index variables in the same way that economists use them today. Simply put, and based on my very-under-educated understanding of how the U.S. central bank makes policy decisions: all of modern economics is a big sham based on index variables with no context attached to them. 
 

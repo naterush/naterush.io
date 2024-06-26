@@ -2,7 +2,9 @@
 layout: post
 title:  "Product vs. Protocol"
 date:   2020-4-2 0:00:00 -0400
-categories: new-blog
+categories:
+  - blockchain
+  - product
 ---
 
 I'm not very good at building products. I don't have a great product sense, I kinda suck at user interviews, and I struggle to understand user problems from the conversations I have. But I'm trying, hard, to get better all of this. The literature promises it will help me build products people actually want.

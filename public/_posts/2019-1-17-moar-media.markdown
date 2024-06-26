@@ -2,7 +2,8 @@
 layout: post
 title:  "Moar Media"
 date:   2019-1-17 12:00:00 -0400
-categories: old-blog
+categories:
+  - media
 ---
 The new God of War game looks awesome. I haven’t played it, but I watched pretty much the entire game on YouTube. It’s heavily story driven and done with a no-cut camera. In places, this turns the game into a movie. 
 

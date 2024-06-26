@@ -2,7 +2,8 @@
 layout: post
 title:  "In Motion"
 date:   2021-8-1 0:00:00 -0400
-categories: new-blog
+categories:
+  - reflection
 ---
 I spent two years trying mindfullness meditation, and I failed to stick to the habit for more than a week straight, ever. I've successfully stuck to a daily running habit for 2 years in a row, missing not more than one month (spent-in-bed-recovering-from-surgery).
 

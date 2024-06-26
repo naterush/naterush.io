@@ -2,7 +2,9 @@
 layout: post
 title:  "Perfectly priced derivatives"
 date:   2022-1-10 0:00:00 -0400
-categories: new-blog
+categories:
+  - invention
+  - blockchain
 ---
 ### Introduction
 

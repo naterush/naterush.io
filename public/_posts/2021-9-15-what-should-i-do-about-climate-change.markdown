@@ -2,7 +2,9 @@
 layout: post
 title:  "What can I do about climate change"
 date:   2021-9-15 0:00:00 -0400
-categories: new-blog
+categories:
+  - reflection
+  - world-model
 ---
 I've been reading [this](https://math.ucr.edu/home/baez/balsillie/) and [that](http://www.withouthotair.com/) about climate change, trying to get a handle on what climate change really is and what, if anything, I can do about it. Unsurprisingly, I think climate change a problem we should do something about.
 

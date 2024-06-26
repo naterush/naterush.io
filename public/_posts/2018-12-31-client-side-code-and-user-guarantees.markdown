@@ -2,7 +2,9 @@
 layout: post
 title:  "Client-side Code and User Guarantees"
 date:   2018-12-31 12:00:00 -0400
-categories: old-blog
+categories:
+  - blockchain
+  - security
 ---
 At the time of writing [Etherscan.io](etherscan.io) is currently the most popular Ethereum block explorer.
 

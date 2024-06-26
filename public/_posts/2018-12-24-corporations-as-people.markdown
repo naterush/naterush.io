@@ -2,7 +2,8 @@
 layout: post
 title:  "Corporations as People"
 date:   2018-12-24 12:00:00 -0400
-categories: old-blog
+categories:
+  - world-model
 ---
 How much of a company’s advantage in a market comes from the private information it has? How much value does Urban Outfitters get from not revealing the new graphic tees it has until the shirts are designed, printed, and in stores, and how much value does Apple get by leaking no secrets about the new iPhone until it can be purchased ? 
 
