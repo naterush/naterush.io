@@ -49,7 +49,7 @@ export default function Home() {
       </header>
       <main>
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Featured Posts</h2>
+          <h2 className="text-2xl font-semibold mb-4">My Favorites</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {featuredPostsData.map(({ id, date, title, categories }) => (
             <Link href={`/posts/${id}`} key={id}>
@@ -76,7 +76,7 @@ export default function Home() {
 
         </section>
         <section>
-          <h2 className="text-2xl font-semibold mb-4">All Posts</h2>
+          <h2 className="text-2xl font-semibold mb-4">All the rest of em</h2>
           <ul className="list-none p-0">
             {allPostsData.map(({ id, date, title, categories }) => (
               <Link key={id} href={`/posts/${id}`}>
