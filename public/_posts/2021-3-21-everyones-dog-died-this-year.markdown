@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Everyone's Dog Died This Year"
+title:  "Everyone's Dog is Dead"
 date:   2021-3-21 0:00:00 -0400
 categories:
   - system-design

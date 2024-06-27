@@ -11,12 +11,29 @@ export type PostData = {
   title: string;
   date: string;
   categories: string[];
-  excerpt: string
+  excerpt: string,
+  readingTime: string;
 };
 
 export type PostDataWithContent = PostData & {
   content: string;
 };
+
+const getReadingTime = (content: string) => {
+  const wordsPerMinute = 200;
+  const words = content.split(' ').length;
+  const minutes = words / wordsPerMinute;
+  const readTime = Math.ceil(minutes);
+  if (readTime < 2) {
+    return '2 mins'
+  }
+
+  if (readTime > 60) {
+    return `${Math.floor(readTime / 60)} hr ${readTime % 60} min`;
+  }
+
+  return `${readTime} min`;
+}
 
 const getExcerpt = (content: string) => {
 
@@ -52,12 +69,14 @@ export function getSortedPostsData(): PostData[] {
 
     const matterResult = matter(fileContents);
 
-    let excerpt = getExcerpt(matterResult.content);
+    const excerpt = getExcerpt(matterResult.content);
+    const readingTime = getReadingTime(matterResult.content);
 
     return {
       id,
       ...matterResult.data,
-      excerpt: excerpt
+      excerpt: excerpt,
+      readingTime: readingTime
     } as PostData;
   });
   return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));

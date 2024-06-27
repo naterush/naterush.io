@@ -4,7 +4,7 @@ import { getSortedPostsData } from '../lib/posts';
 const featuredPosts: Record<string, string> = {
   'Unintelligent Design': "A book I wrote about decision making. Use at your own peril.",
   'Enlightenment Maybe': "Is the world getting better? That depends on our extinction risk.",
-  'Everyone\'s Dog Died This Year': "Design for uncorrelated failure modes, to best support your friends.",
+  'Everyone\'s Dog is Dead': "Design for uncorrelated failure modes, to best support your friends.",
   'Why Version Control is Not Version Control': "Collaboration on current state >> mucking with historical state. ",
   //'Client-side Code and User Guarantees': "Back when I was doing Blockchain",
 };
@@ -124,12 +124,12 @@ export default function Home() {
         <section className="mb-8">
           <h2 className="text-2xl font-medium mb-4">My Favorites</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {featuredPostsData.map(({ id, date, title, categories }) => (
+          {featuredPostsData.map(({ id, date, title, categories, readingTime }) => (
             <Link href={`/posts/${id}`} key={id}>
               <div className="group perspective">
                 <div className="flex flex-col justify-between border p-5 rounded shadow-sm hover:bg-gray-100 cursor-pointer h-full rounded-[16px] transition-transform duration-300 ease-in-out transform group-hover:-rotate-2">
                   <div>
-                    <div>{title}</div>
+                    <div>{title} <span className='text-[#868686]'>({readingTime})</span></div>
                     <p className='not-prose my-2 leading-snug text-normal text-[#868686] font-normal'>{featuredPosts[title]}</p>
                   </div>
                   <div className="mt-2 flex flex-wrap">
@@ -147,11 +147,11 @@ export default function Home() {
         <section>
           <h2 className="text-2xl font-medium mb-4">All the rest of &apos;em</h2>
           <ul className="list-none p-0">
-            {allPostsData.map(({ id, date, title, categories, excerpt }) => (
+            {allPostsData.map(({ id, date, title, categories, excerpt, readingTime }) => (
               <Link key={id} href={`/posts/${id}`} className="group">
                 <li className="mb-4 p-0">
                   <div className="group-hover:text-[#868686] transition-colors duration-200">
-                    {title}
+                    {title} <span className='text-[#868686]'>({readingTime})</span>
                   </div>
                   <p className='not-prose text-normal leading-snug font-normal text-[#868686]'>
                     {excerpt}
