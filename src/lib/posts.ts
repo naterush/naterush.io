@@ -11,11 +11,36 @@ export type PostData = {
   title: string;
   date: string;
   categories: string[];
+  excerpt: string
 };
 
 export type PostDataWithContent = PostData & {
   content: string;
 };
+
+const getExcerpt = (content: string) => {
+
+  // Remove any titles, etc
+  content = content.split('\n').filter(line => /^[a-zA-Z]/.test(line)).join('\n')
+
+  // Remove any parentheticals (and everything between it) - including the starting " "
+  content = content.replace(/\s?\(.*?\)/g, '');
+
+  // Then, remove brackets (keep the content inside)
+  content = content.replace(/\[.*?\]/g, '');
+
+  // If there is no content left, return an empty string
+  if (!content) {
+    return '';
+  }
+
+  const sliceIndex = content.lastIndexOf(' ', 140);
+  if (sliceIndex !== -1) {
+    return content.slice(0, sliceIndex) + '...';
+  } else {
+    return content.slice(0, 140) + '...';
+  }
+}
 
 export function getSortedPostsData(): PostData[] {
   const fileNames = fs.readdirSync(postsDirectory);
@@ -27,9 +52,12 @@ export function getSortedPostsData(): PostData[] {
 
     const matterResult = matter(fileContents);
 
+    let excerpt = getExcerpt(matterResult.content);
+
     return {
       id,
-      ...matterResult.data
+      ...matterResult.data,
+      excerpt: excerpt
     } as PostData;
   });
   return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -44,11 +72,12 @@ export function getPostData(id: string): PostDataWithContent {
   const fullPath = path.join(postsDirectory, `${id}`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
 
+  
   const matterResult = matter(fileContents);
 
   return {
     id,
     ...matterResult.data,
-    content: matterResult.content
+    content: matterResult.content,
   } as PostDataWithContent;
 }

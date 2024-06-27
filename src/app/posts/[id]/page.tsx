@@ -23,7 +23,7 @@ export default async function Post(params: any) {
 
   return (
     <div className="container mx-auto px-4">
-      <article className="prose lg:prose-xl my-8">
+      <article className="prose my-8">
         <h1 className="text-4xl font-bold">{postData.title}</h1>
         <div className="text-gray-500 mb-4">{postData.date.split(' ')[0]}</div>
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />

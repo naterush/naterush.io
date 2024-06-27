@@ -5,8 +5,7 @@ date:   2021-10-15 0:00:00 -0400
 categories:
   - world-model
 ---
-1. Science is a process that is designed to drive human knowledge towards objective truth.
-    1. It therefore assumes there is such thing as an objective truth.
+Science is a process that is designed to drive human knowledge towards objective truth. It therefore assumes there is such thing as an objective truth.
 2. How does it drive toward objective truth?
     1. Well, how did we get to truth before?
         1. We just said what we thought, and then we attempted to defend it.
