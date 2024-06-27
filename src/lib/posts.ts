@@ -25,7 +25,7 @@ const getReadingTime = (content: string) => {
   const minutes = words / wordsPerMinute;
   const readTime = Math.ceil(minutes);
   if (readTime < 2) {
-    return '2 mins'
+    return '2 min'
   }
 
   if (readTime > 60) {
