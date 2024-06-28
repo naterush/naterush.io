@@ -118,6 +118,22 @@ export default function Home() {
             </svg>
             <span className="text-[#868686] font-inter font-medium underline group-hover:text-[#4848F7]">LinkedIn</span>
           </a>
+          <div className="mx-2 w-px h-4 bg-[#868686]"></div>
+          <a href="Nate-Rush-Resume.pdf" download="Nate-Rush-Resume.pdf" className="flex items-center space-x-1 group hover:no-underline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+            <g clipPath="url(#clip0_95_47)">
+              <circle cx="6" cy="4" r="1.5" fill="#868686"/>
+              <path d="M10 9.71166C10 11.4854 8.20914 9.71166 6 9.71166C3.79086 9.71166 2 11.4854 2 9.71166C2 7.93791 3.79086 6.5 6 6.5C8.20914 6.5 10 7.93791 10 9.71166Z" fill="#868686"/>
+              <rect x="0.5" y="1" width="11" height="11" rx="2.5" stroke="#868686"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_95_47">
+                <rect width="12" height="12" fill="white" transform="translate(0 0.5)"/>
+              </clipPath>
+            </defs>
+          </svg>
+            <span className="text-[#868686] font-inter font-medium underline group-hover:text-[#4848F7]">Resume</span>
+          </a>
         </div>
       </header>
       <main>
