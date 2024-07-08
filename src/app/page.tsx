@@ -3,9 +3,9 @@ import { getSortedPostsData } from '../lib/posts';
 
 const featuredPosts: Record<string, string> = {
   'Unintelligent Design': "A book I wrote about decision making. Use at your own peril.",
+  'Ethical AI Vegans': "On the domestication of AIs and resulting moral implications.",
   'Enlightenment Maybe': "Is the world getting better? That depends on our extinction risk.",
   'Everyone\'s Dog is Dead': "Design for uncorrelated failure modes, to best support your friends.",
-  'Why Version Control is Not Version Control': "Collaboration on current state >> mucking with historical state. ",
   //'Client-side Code and User Guarantees': "Back when I was doing Blockchain",
 };
 
