@@ -1,15 +1,29 @@
 // app/posts/[id]/page.tsx
-import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getAllPostIds, getPostData } from '../../../lib/posts';
+import { notFound } from 'next/navigation';
 import { remark } from 'remark';
 import html from 'remark-html';
+import { getAllPostIds, getPostData } from '../../../lib/posts';
 
 export async function generateStaticParams() {
   const postIds = getAllPostIds();
   return postIds.map(postId => ({
     id: postId,
   }));
+}
+ 
+type Props = {
+  params: { id: string }
+}
+ 
+export async function generateMetadata(
+  { params }: Props,
+): Promise<Metadata> {
+  const postData = getPostData(params.id);
+  return {
+    title: postData.title
+  }
 }
 
 export default async function Post(params: any) {
