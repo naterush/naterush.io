@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ethical AI Veganism and Herd Training"
+title:  "Ethical AI Vegans"
 date:   2024-2-10 0:00:00 -0400
 categories:
   - ai-safety
