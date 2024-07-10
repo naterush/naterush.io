@@ -80,7 +80,12 @@ export function getSortedPostsData(): PostData[] {
       readingTime: readingTime
     } as PostData;
   });
-  return allPostsData.sort((a, b) => (Date.parse(a.date) < Date.parse(b.date) ? 1 : -1));
+
+  
+
+  return allPostsData.sort((a, b) => (Date.parse(a.date) < Date.parse(b.date) ? 1 : -1)).filter(
+    p => {return Date.parse(p.date) <= Date.now()}
+  );
 }
 
 export function getAllPostIds(): string[] {
