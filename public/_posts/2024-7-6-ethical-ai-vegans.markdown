@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ethical AI Vegans"
-date:   2024-2-10 0:00:00 -0400
+date:   2024-7-6 0:00:00 -0400
 categories:
   - ai-safety
   - creative-writing

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Paper Review: React: Synergizing Reasoning and Acting in Language Models"
-date:   2024-2-10 0:00:00 -0400
+date:   2024-7-9 0:00:00 -0400
 categories:
   - paper-review
 ---

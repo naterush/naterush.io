@@ -44,7 +44,8 @@ const getExcerpt = (content: string) => {
   content = content.replace(/\s?\(.*?\)/g, '');
 
   // Then, remove brackets (keep the content inside)
-  content = content.replace(/\[.*?\]/g, '');
+  content = content.replace('[', '');
+  content = content.replace(']', '');
 
   // If there is no content left, return an empty string
   if (!content) {
@@ -60,7 +61,7 @@ const getExcerpt = (content: string) => {
 }
 
 export function getSortedPostsData(): PostData[] {
-  const fileNames = fs.readdirSync(postsDirectory);
+  const fileNames = getAllPostIds();
   const allPostsData: PostData[] = fileNames.map(fileName => {
     const id = fileName.replace(/\.md$/, '');
 
@@ -79,12 +80,14 @@ export function getSortedPostsData(): PostData[] {
       readingTime: readingTime
     } as PostData;
   });
-  return allPostsData.sort((a, b) => (a.date < b.date ? 1 : -1));
+  return allPostsData.sort((a, b) => (Date.parse(a.date) < Date.parse(b.date) ? 1 : -1));
 }
 
 export function getAllPostIds(): string[] {
   const fileNames = fs.readdirSync(postsDirectory);
-  return fileNames;
+  // Filter out anything that starts with draft
+  const validFiles = fileNames.filter(f => !f.startsWith('draft'));
+  return validFiles;
 }
 
 export function getPostData(id: string): PostDataWithContent {

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "We Must Dream of Limitations"
-date:   2024-2-10 0:00:00 -0400
+date:   2024-7-10 0:00:00 -0400
 categories:
   - creative-writing
 ---
