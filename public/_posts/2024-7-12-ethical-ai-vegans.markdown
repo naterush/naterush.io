@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ethical AI Vegans"
-date:   2024-7-6 0:00:00 -0400
+date:   2024-7-12 0:00:00 -0400
 categories:
   - ai-safety
   - creative-writing
@@ -24,4 +24,4 @@ Currently, I have not seen anyone on the internet making an argument with this t
 
 Believers will consciously avoid the outputs of AI models, in the same way that vegans consciously avoid the outputs of animals. And these ethical AI vegasn might have a good point!
 
-> See more on domestication and AI [here](https://www.naterush.io/posts/2024-7-6-domesticating-ai.markdown).
+See more on domestication and AI [here](https://www.naterush.io/posts/2024-7-6-domesticating-ai.markdown).
