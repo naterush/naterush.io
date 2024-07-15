@@ -67,12 +67,12 @@ export default async function Post(params: any) {
 
   return (
     <div className="container px-8">
-      <div className="mt-8 mb-8">
-        <Link href="/">
-          <div className="text-blue-600 hover:underline">← Back to home</div>
-        </Link>
-      </div>
       <article className="prose mx-auto my-8">
+        <div className="mt-8 mb-8 mx-auto">
+          <Link href="/">
+            <div className="text-blue-600 hover:underline">← Back to home</div>
+          </Link>
+        </div>
         <h1 className="text-4xl font-bold">{postData.title}</h1>
         <div className="text-gray-500 mb-4">{postData.date.split(' ')[0]}</div>
         <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
