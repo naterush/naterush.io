@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First-Class LLM Integration Framework 1: Motivation for a Change"
+title:  "OpenAI builds a LangChain competitor (1/4)"
 date:   2024-7-15 0:00:00 -0400
 categories:
   - product
