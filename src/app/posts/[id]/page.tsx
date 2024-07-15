@@ -5,6 +5,33 @@ import { notFound } from 'next/navigation';
 import { remark } from 'remark';
 import html from 'remark-html';
 import { getAllPostIds, getPostData } from '../../../lib/posts';
+import Prism from 'prismjs';
+import cheerio from 'cheerio';
+
+// Load all Prism languages you need
+import 'prismjs/components/prism-python';
+// Add more languages as needed
+
+function highlightCodeBlocks(htmlString: string) {
+  const $ = cheerio.load(htmlString);
+
+  $('code').each((_, element) => {
+    const $element = $(element);
+    const languageClass = $element.attr('class')?.split(' ').find(cls => cls.startsWith('language-'));
+
+    if (languageClass) {
+      const language = languageClass.replace('language-', '');
+      const code = $element.text();
+
+      if (code) {
+        const highlightedCode = Prism.highlight(code, Prism.languages[language], language);
+        $element.html(highlightedCode);
+      }
+    }
+  });
+
+  return $.html();
+}
 
 export async function generateStaticParams() {
   const postIds = getAllPostIds();
@@ -33,10 +60,13 @@ export default async function Post(params: any) {
   }
 
   const processedContent = await remark().use(html).process(postData.content);
-  const contentHtml = processedContent.toString();
+  let contentHtml = processedContent.toString();
+
+  // Highlight code blocks
+  contentHtml = highlightCodeBlocks(contentHtml);
 
   return (
-    <div className="container mx-auto px-4">
+    <div className="container px-8">
       <article className="prose my-8">
         <h1 className="text-4xl font-bold">{postData.title}</h1>
         <div className="text-gray-500 mb-4">{postData.date.split(' ')[0]}</div>

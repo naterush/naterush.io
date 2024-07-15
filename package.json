@@ -10,15 +10,19 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.13",
+    "cheerio": "^1.0.0-rc.12",
     "gray-matter": "^4.0.3",
     "next": "14.2.4",
+    "prismjs": "^1.29.0",
     "react": "^18",
     "react-dom": "^18",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.35",
     "@types/node": "^20",
+    "@types/prismjs": "^1.26.4",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
