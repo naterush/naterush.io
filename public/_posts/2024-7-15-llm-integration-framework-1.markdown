@@ -6,15 +6,11 @@ categories:
   - product
 ---
 
-If you’re here, you’ve probably heard of LangChain. If you’ve heard of LangChain, you probably read a [roast](https://news.ycombinator.com/item?id=36645575) of it online. 
+If you’re here, you’ve probably heard of LangChain. And if you’ve heard of LangChain, you probably read a [roast](https://news.ycombinator.com/item?id=36645575) of LangChain.
 
-LangChain is just the highest-profile example of an **LLM integration framework**: a Python library that makes it easier for you to design AI-enabled applications.
+LangChain is just the highest-profile example of an **LLM integration library**: a Python library that makes it easier for developers to build apps that use LLMs.
 
-In this series, I’ll be putting my product hat and exploring: what would it look like for OpenAI/Anthropic to release an LLM integration framework of their own? 
-
-We’ll spend some time defining what an LLM integration framework is more concretely. From there, we’ll build an understand of the user stories of these frameworks. Finally, we’ll spend some time designing an LLM integration framework - from the perspective of a major AI lab. 
-
-**What would it look like if OpenAI or Anthropic built a LangChain competitor?**
+In this series, we will explore what types of LLM integration libraries exist, understand what the developers who use these libraries are looking for, and ask: **what would it look like for OpenAI or Anthropic to release an LLM integration library of their own?**
 
 ### Level 0: Direct Hit
 
@@ -43,17 +39,17 @@ result = response.json()
 print(result['choices'][0]['message']['content'].strip())
 ```
 
-I’ve deployed code like this at [Mito](https://trymito.io). Our customers were large U.S. banks, and large U.S. banks are particularly insecure about new dependencies; this approach allowed us to avoid adding new dependencies while hooking up to their internally-deployed LLMs. 
+I’ve deployed code like this at [Mito](https://trymito.io). Our customers were large U.S. banks, and large U.S. banks are particularly insecure about new dependencies; this approach allowed us to avoid new dependencies while connecting Mito to their internally-deployed LLMs. 
 
-In practice, this approach works well for getting a single response to a single prompt from a single model hosted at a single URL. Switching between models ain’t so hard either.
+In practice, this approach works well for getting a single response to a single prompt from a single model hosted at a single URL.
 
-However, to support multi-round conversations, streaming of responses, generating structured output - you need to implement all of this yourself.
+However, to support multi-round conversations, streaming responses, generating structured output - you need to implement this yourself.
 
 ### Level 1: API Wrappers
 
-So, unless you have some hardcore reason for avoiding dependencies, you’re probably interested in level 1: a wrapper around the LLMs API. 
+So, unless you have some hardcore reason for avoiding dependencies, you’re probably interested in a level 1 LLM integration library: a wrapper around the LLM's API. 
 
-Consider, for example, the official `openai` Python package. Here’s the code that does the same “single completion” as level 0 above: 
+Consider the official `openai` Python package. Here’s the code that does the same “single completion” as above: 
 
 ```python
 from openai import OpenAI
@@ -67,9 +63,7 @@ completion = client.chat.completions.create(
 print(completion.choices[0].message)
 ```
 
-Already, there are considerable code savings.
-
-Let's imagine you want to change the response to be streaming: 
+Already, there are considerable code savings. And then imagine you want to change the response to stream: 
 ```python
 from openai import OpenAI
 
@@ -85,19 +79,17 @@ for chunk in stream:
         print(chunk.choices[0].delta.content, end="")
 ```
 
-In general, the `openai` framework knocks off much of the list of not supported in level 0. We can easily have multi-round conversations, stream responses, and generate structured output.
+In general, the `openai` framework makes it easier to do much of what is more challenging with raw requests to the model API; it is easier to have multi-round conversations, stream responses, and generate structured output.
 
-#### Wrapping Multiple LLMs
+#### Provider-agnostic API Wrappers
 
-The above `openai` library is OpenAI specific, duh. But there are also level 1 wrapper libraries that support a variety of providers. The [`llm` library](https://llm.datasette.io/en/stable/) is a good example here. This library also iterative conversations and streaming responses. 
+The above `openai` library is OpenAI specific, duh. But there are also level 1 wrapper libraries that support a variety of providers. The [`llm` library](https://llm.datasette.io/en/stable/) is a good example here, and has much of the same functionality as the `openai` package, except for any model you can imagine.
 
 ### Level 2: Convenience Functions
 
-We're doing great by now. We have libraries that make it easier to interact with LLMs in standard ways - but now we actually want to build applications with these LLMs. For example, we might want to enrich the LLM response with some of our own data, or easily store conversations that users have with these LLMs. 
+We're doing good now. Level 1 libraries make it easier to interact with LLMs in standard ways. Now it's time to build applications with these LLMs.
 
-Enter level 2 libraries.
-
-Level 2 libraries include convenience functions for common LLM applications. Let's consider the most popular example: LangChain.
+Enter level 2: libraries that include convenience functions for common LLM applications. Let's consider the most popular level 2 library: LangChain.
 
 Here's our same chat application from above, implemented in LangChain:
 ```python
@@ -113,9 +105,7 @@ messages = [
 model.invoke(messages)
 ```
 
-Note that the code still specifically chooses a model, but it's easy to switch from `ChatOpenAI` to `ChatAnthropic`.
-
-And with LangChain, you get a lot more than just Chat. Imagine you want to make a [RAG application](https://arxiv.org/abs/2005.11401) to extend the model with some of your own internal data. Well, LangChain has useful utilities for the chunking, storing, and searching that is necessary for this application to work:
+And with LangChain, you get a lot more than just Chat. Imagine you want to make a [RAG application](https://arxiv.org/abs/2005.11401) to extend the model's knowledge with some of your own internal data. Well, LangChain has useful utilities for the chunking, storing, and searching that is necessary for this:
 
 ```python
 import bs4
@@ -159,22 +149,18 @@ rag_chain = (
 rag_chain.invoke("What is Task Decomposition?")
 ```
 
-The LangChain ecosystem provides utilities for loading content form the web, splitting this content into chunks, creating a vector store, and then running a chain of computations on this information. 
-
-Level 2 LLM integration libraries fundamentally have the goal of making common use cases easier. 
+Level 2 LLM integration libraries fundamentally have the goal of making common use cases easier. In [post 2](http://naterush.io/posts/2024-7-16-llm-integration-framework-2.markdown) in this series, we'll explore these use cases in more detail.
 
 #### Notable Lack of First-Class Level 2 Frameworks
 
 Notably, while both OpenAI and Anthropic have level 1 libraries (`openai` and `anthropic` respectively), no major AI lab has a level 2 LLM integration library. 
 
-Your author speculates that this is simply a function of resources and focus: the battle is currently being fought on model quality (and hopefully safety). 
+Your author speculates that this is a function of resources and focus: the battle is currently being fought on model quality (and hopefully safety). 
 
-But the use cases of LLMs are much more defined than they were even a year ago. And as such, it may be time for OpenAI or Anthropic to consider creating such a library.
+But the use cases of LLMs are much more defined than they were even a year ago. And as such, it's wonth considering what it would look like if OpenAI or Anthropic built a level 2 library themselves.
 
 ## Conclusion
 
-A level 0 LLM library isn’t much of a library at all - it’s just raw requests to the model API. A level 1 LLM library gives you useful utility functions for working with the API while remaining application agnostic. A level 2 LLM library gives you utility functions to make building common LLM applications (some RAG app) easier. 
+A level 0 LLM library isn’t much of a library at all - it’s just raw requests to the model API. A level 1 LLM library gives you a wrapper around the model API while remaining application agnostic. A level 2 LLM library gives you utility functions to make building common LLM applications (some RAG app) easier.
 
-In the next blog post, we'll put on our product design hats and ask ourselves what users really want from level 2 LLM integration libraries. From there, we'll be prepared to design a level 2 library - pretending that we were OpenAI or Anthropic.
-
-Can’t wait - see you in the next one!
+In the [next blog post](http://naterush.io/posts/2024-7-16-llm-integration-framework-2.markdown), we'll put on our product design hats and ask ourselves what users really want from level 2 LLM integration libraries. From there, we'll be prepared to [design a level 2 library](https://www.naterush.io/posts/2024-7-16-llm-integration-framework-3.markdown), pretending that we were OpenAI or Anthropic. Gulp!
