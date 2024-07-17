@@ -66,8 +66,8 @@ export default async function Post(params: any) {
   contentHtml = highlightCodeBlocks(contentHtml);
 
   return (
-    <div className="container px-8">
-      <article className="prose mx-auto my-8">
+    <div className="container mx-auto px-8">
+      <article className="prose mx-auto my-8" style={{maxWidth: '80ch'}}>
         <div className="mt-8 mb-8 mx-auto">
           <Link href="/">
             <div className="text-blue-600 hover:underline">← Back to home</div>

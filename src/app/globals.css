@@ -29,8 +29,3 @@ body {
 a {
   text-decoration: none !important;
 }
-
-.prose pre {
-  width: 150%;
-  max-width: 90vw;
-}
