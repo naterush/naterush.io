@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Leading AI Lab builds a LangChain competitor part 3"
+title:  "AI Lab builds a LangChain competitor part 3"
 date:   2024-7-16 1:00:00 -0400
 categories:
   - product
