@@ -93,7 +93,7 @@ In poking my head up, I've been:
 
 I'd describe myself as a mechanistic interpretability amature now. Not a noob anymore, but an amature. Not sure it's true, but even if it's aspirational I'm fine with that.
 
-# How are common libraries for beginners
+# How are the libraries for beginners?
 
 Quick interlude: let's review the four libraries I used most over the past four weeks. I've opened a few PRs and issues against some of these - so hopefully this does not come across as just throwing stones. I! Promise! I'm! Not! That! Sort! Of! Open! Source! User! 
 
