@@ -164,9 +164,9 @@ SAELens is the start of a great SAE library. Please don't take this as a random 
 
 Overall, I would rate my onboarding experience as an 8/10. There's clearly been a lot of thought, care, effort, and money put into resources for aspiring mech interp researchers - which is really great. The first few weeks of this journey were effectively just learning with no cruft. 
 
-However, the transition from super-small toy models and small GPUs to more-real projects could use a bit of work. I think the most useful changes would be:
+However, the transition from analysis-of-existing-models to more-real projects could use a bit of work. I think the most useful changes would be:
 
-1. Recommended VSCode tech stack. Where should I get a virtual machine with a good GPU? How can I easily hook this up to VSCode? Colab was excellent for the first two weeks, and a huge productivity hit for the later week. Let's make that transition smoother.
-2. Aspiring-researcher GPU fund. As I quit my job to do AI Safety, I don't have funds to rent/buy a good GPU. I wish I could fill out a <5 minute application, and get access to an A100 GPU for 10 hours, and then show my results, and then get another 10 hours, etc etc. Yes, I've applied to the transition funds like the Open Phil Transition Fund - but these applications are long, and the turnaround time is in weeks! Not so useful for just getting started. 
-3. Documentation for analysis using SAELens. This exists in Arena (although I didn't find it until I went looking right now) - but it is missing (or very hard to find) from the SAELens library. I had to roll most SAE analysis from scratch. Maybe great for learning, but probably not how we want things to work!
+1. Recommended VSCode tech stack. Where should I get a virtual machine with a good GPU? Which GPU? And what about more storage? Colab was excellent for the first two weeks, and a huge productivity hit for the later week. I think we can make that transition smoother.
+2. Aspiring-researcher GPU fund. I don't have funds to rent/buy a good GPU. I wish I could fill out a <5 minute application, and get access to an A100 GPU for 10 hours, and then show my results, and then get another 10 hours, etc etc. I've applied to the transition funds like the Open Phil Transition Fund - but these applications are long, and the turn-around time is in weeks! Not so useful for getting started quickly.
+3. Documentation for SAELens - specifically when using it for analysis. This documentation exists in Arena (although I missed it until right now), but it is hard to find through the SAELens library. I had to roll most SAE analysis from scratch. Maybe great for learning, but probably not how we want things to work!
 
