@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Paper Review: Intriguing properties of neural networks"
-date:   2024-7-7 0:00:00 -0400
+date:   2024-9-16 0:00:00 -0400
 categories:
   - ai-safety
   - creative-writing
