@@ -6,35 +6,37 @@ categories:
   - ai-safety
 ---
 
-## Building a scaling law
+## What you need for a scaling law
 
-One thing you may want to do is be able to predict your agent's performance (y axis) based on some amount of input (x axis). For example, [this scaling law paper](https://arxiv.org/abs/2001.08361) measures how cross-entropy loss (y axis) changes as a function of compute or dataset size or parameters (x axis).
+One useful thing to do is to predict your LLM's performance based on how much of a certain resource you give it. For example, [this scaling law paper](https://arxiv.org/abs/2001.08361) measures how an LLM's cross-entropy loss changes as a function of compute or dataset size or parameters.
 
-Scaling laws are useful if they have predictive power. Thus, to create a useful scaling law, the measured performance variable needs a _consistent_ relationship with inputs being varied. 
+For scaling laws to be predictive, the measured performance variable must have a _consistent_ relationship with the inputs being varied. 
 
-This does not imply the relationship must be linear. The above linked paper observes a 10x increase in compute results in a -1 decrease in cross-entropy loss. 
+As an example of a scaling law that would not work, imagine if we attempted to predict how an LLM's cross-entropy loss changes as a function of the number of GPUs we split training across. Of course, this doesn't really matter (for a fixed amount of compute), and so our scaling law would be bunk.
+
+Note that a consistent relationship need not be a linear relationship. The linked paper above observes a 10x increase in compute results in a -1 decrease in cross-entropy loss. 
 
 ## Scaling laws for real-world tasks
 
 So, let's imagine we want to create a scaling law where the performance variable we're looking to predict is "how well the model can do on a family of tasks?"
 
-Sounds good and practical! Let's now ask: what is in this family of tasks? How does this effect our ability to form a scaling law. 
+Sounds good and practical! Let's now ask: what is in this family of tasks?
 
 ### The sha256^n family of tasks
 
-Let's create a pathological family of tasks called sha256^n. This is 100 tasks, where task i is defined as "Return the {i}th sha256 hash of the input string 'abc'".
+Let's create a pathological family of tasks called `sha256^n`. This is 100 tasks, where `task i` is defined as "Return the {i}th sha256 hash of the input string 'abc'".
 
-First, let's observe that if we benchmarked average human performance on this set of tasks (in terms of % of tasks completed), then the longer time we gave the humans, the higher there score would be. 
+First, let's observe that if we benchmarked average human performance on this set of tasks (by % of tasks completed), then the more time we gave humans, the higher their score would be. 
 
-Now, let's imagine trying to form a basic scaling law for these tasks - where we increase the number of LLM model parameters, ask it to generate/execute Python, and see how % of tasks completed correctly scales. What would likely happen? 
+Now, let's imagine trying to form a basic scaling law for these tasks - where we increase the number of LLM model parameters, ask it to generate/execute Python, and see how % of tasks completed scales. 
 
-In practice, we'd likely see the following:
-1. Small models would not be able to write the necessary Python code, and so would get a zero. 
-2. Above a certain size, the model would be able to write the Python code. If they could write code for one task, they could write it for all - and thus would get a perfect score (assuming that the timeouts on the code execution were long enough). 
+In practice, we'd likely see the following from this experiment:
+1. Small models would not be able to write the necessary Python code, and so would complete 0% of the tasks.
+2. Above a certain size, the model would be able to write correct Python code. If a model can write code for one `sha256^n` task, it can likely write it for all. Thus, a model of a sufficient size would likely get a 100%.
 
-This is notable. Despite human performance scaling almost perfectly linearly as a function of time, the structure of the tasks mean that this family of tasks will _not_ form a scaling law with the size of the model. 
+This is notable. Despite human performance scaling almost perfectly linearly as a function of time-given, the structure of the task family mean that we cannot form a useful scaling law with the size/capabilities of the model. 
 
-In other words, you actually need to reason about the structure of the tasks in your task family, if you want this family of tasks to create a preditive scaling law!
+In other words, you actually need to reason about the structure of the tasks in your task family, if you want this family of tasks to create a predictive scaling law!
 
 ### What about less pathologically constructed tasks?
 
