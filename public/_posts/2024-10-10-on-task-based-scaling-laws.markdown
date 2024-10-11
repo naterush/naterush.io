@@ -26,25 +26,25 @@ It sounds super useful, if it can work. Let's now ask: what does this set of tas
 
 Let's create a pathological family of tasks called `sha256^n`. This is 100 tasks, where `task i` is defined as "Return the {i}th sha256 hash of the input string 'abc'".
 
-First, let's observe that if we benchmarked average human performance on this set of tasks (by % of tasks completed), then the more time we gave humans, the higher their score would be. 
+First, observe that if we measured the % of `sha256^n` tasks completed by humans over time, it would increase linearly. This is simply because each task takes slightly longer than the previous one to complete -- simply due to the necessary sequential nature of repeated hashing.
 
-Now, let's imagine trying to form a basic scaling law for these tasks - where we increase the number of LLM model parameters, ask it to generate/execute Python, and see how % of tasks completed scales. 
+Now, lets imagine that we tried to form a scaling law for LLMs with this family of tasks. We'll vary the number of model parameters, and then see how the % of tasks the LLM can complete scales. (Note that we'll give the LLM the ability to run Python code.)
 
-In practice, we'd likely see the following from this experiment:
+In practice, we would likely observe the following piece-wise, discontinuous function:
 1. Small models would not be able to write the necessary Python code, and so would complete 0% of the tasks.
-2. Above a certain size, the model would be able to write correct Python code. If a model can write code for one `sha256^n` task, it can likely write it for all. Thus, a model of a sufficient size would likely get a 100%.
+2. Above a certain size, the model would be able to write correct Python code. If a model can write code for one `sha256^n` task, it can likely write it for all -- as all tasks are effectively the same. Thus, a model of a sufficient size would likely get a 100%.
 
-This is notable. Despite human performance scaling almost perfectly linearly as a function of time-given, the structure of the task family mean that we cannot form a useful scaling law with the size/capabilities of the model. 
+Thus, despite human performance on this task family scaling linearly as a function of time, the structure of the task family means that we will form a predictive scaling law as we vary the size of the model. 
 
-In other words, you actually need to reason about the structure of the tasks in your task family, if you want this family of tasks to create a predictive scaling law!
+**In other words, creating a consistent scaling law for real-world tasks requires reasoning about the structure / overlap in your task set.**
 
 ### What about less pathologically constructed tasks?
 
-Fair enough, you say, for the sha256^n family. But what if we have a diverse array of tasks, constructed by a diverse folks in a large number of domains? What are the odds that these tasks have structure that overlaps to such a degree?
+Fair enough, you say, for the `sha256^n` family. But what if we have a diverse array of tasks, constructed by a diverse folks in a large number of domains? What are the odds that these tasks have structure that overlaps to such a degree?
 
-Honestly, who can say? The main question here is how much "overlap" causes a problem. And what really is defined as "overlap" is not super easy to define. 
+Honestly, who can say? The main question here is how much "overlap" causes a problem. It's not even really clear what "overlap" is. 
 
-Consider programming tasks for example -- is the fact that they are all programming already too much of a problem? Or maybe the crux of the problem is just that you need to be good at debugging? Are domain-specific tasks bad in particular for predictive laws, because the domain itself imposes an overlap? 
+Consider programming tasks for example -- is the fact that they are all programming already too much of a problem? Or maybe the crux of the problem is just that the LLM just needs to be good at debugging? Are domain-specific tasks bad in particular, because the domain itself imposes an overlap? 
 
 ## Verifying the scaling laws now
 
