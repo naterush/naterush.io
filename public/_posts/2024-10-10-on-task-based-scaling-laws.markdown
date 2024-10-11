@@ -34,20 +34,20 @@ In practice, we would likely observe the following piece-wise, discontinuous fun
 1. Small models would not be able to write the necessary Python code, and so would complete 0% of the tasks.
 2. Above a certain size, the model would be able to write correct Python code. If a model can write code for one `sha256^n` task, it can likely write it for all -- as all tasks are effectively the same. Thus, a model of a sufficient size would likely get a 100%.
 
-Thus, despite human performance on this task family scaling linearly as a function of time, the structure of the task family means that we will form a predictive scaling law as we vary the size of the model. 
+Thus, despite human performance on this task family scaling linearly as a function of time, the structure of the task family means that we will _not_ form a predictive scaling law as we vary the size of the model.
 
 **In other words, creating a consistent scaling law for real-world tasks requires reasoning about the structure / overlap in your task set.**
 
 ### What about less pathologically constructed tasks?
 
-Fair enough, you say, for the `sha256^n` family. But what if we have a diverse array of tasks, constructed by a diverse folks in a large number of domains? What are the odds that these tasks have structure that overlaps to such a degree?
+Fair enough, you say, for the `sha256^n` family. But what if we have a diverse array of tasks, constructed by diverse folks in a large number of domains? What are the odds that these tasks have structure that overlaps to such a degree?
 
-Honestly, who can say? The main question here is how much "overlap" causes a problem. It's not even really clear what "overlap" is. 
+Honestly, who can say? The main question here is how much "overlap" causes a problem - and it's not even really clear what "overlap" is. 
 
-Consider programming tasks for example -- is the fact that they are all programming already too much of a problem? Or maybe the crux of the problem is just that the LLM just needs to be good at debugging? Are domain-specific tasks bad in particular, because the domain itself imposes an overlap? 
+Consider programming tasks, for example. Is the fact that they are all programming already too much overlap? Or maybe the crux of the problem to be solved in every task can just be labeled as "debugging" or "planning"? Are domain-specific tasks bad in particular, because the domain itself imposes an overlap? 
 
 ## Verifying the scaling laws now
 
 One thing we can do is start with smaller models and easier tasks, and test our ability to build effective scaling laws. There's a wealth of open-source, smaller models that we can use off the shelf -- and a wealth of smaller, less hard benchmarks that we can test against. 
 
-If we can't get predictive scaling laws on simple tasks with smaller models, we're probably not going to get predictive scaling laws on harder tasks with large models. At least, it doesn't seem like scaling laws should work that way...
+If we can't get predictive scaling laws on simple tasks with smaller models, we're probably not going to get predictive scaling laws on harder tasks with large models. At least, it could hardly be called a scaling law if it worked this way...
