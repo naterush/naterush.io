@@ -12,15 +12,15 @@ One useful thing to do is to predict your LLM's performance based on how much of
 
 For scaling laws to be predictive, the measured performance variable must have a _consistent_ relationship with the inputs being varied. 
 
-As an example of a scaling law that would not work, imagine if we attempted to predict how an LLM's cross-entropy loss changes as a function of the number of GPUs we split training across. Of course, this doesn't really matter (for a fixed amount of compute), and so our scaling law would be bunk.
+Imagine the following attempted scaling law: how does an LLM's cross-entropy loss change as a function of the number of GPUs we train on? Of course, for a fixed amount of compute, this doesn't really matter -- and so this attempted scaling law would be bunk.
 
 Note that a consistent relationship need not be a linear relationship. The linked paper above observes a 10x increase in compute results in a -1 decrease in cross-entropy loss. 
 
 ## Scaling laws for real-world tasks
 
-So, let's imagine we want to create a scaling law where the performance variable we're looking to predict is "how well the model can do on a family of tasks?"
+Let's imagine we want a particularly practical scaling law, where the performance variable we're measuring is "how well can this model do on a set of tasks?"
 
-Sounds good and practical! Let's now ask: what is in this family of tasks?
+It sounds super useful, if it can work. Let's now ask: what does this set of tasks look like?
 
 ### The sha256^n family of tasks
 
