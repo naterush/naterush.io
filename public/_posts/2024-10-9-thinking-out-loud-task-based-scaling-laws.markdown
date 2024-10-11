@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Task-based Scaling Laws"
-date:   2024-9-19 0:00:00 -0400
+title:  "Thinking Out Loud: Task-based Scaling Laws"
+date:   2024-10-9 0:00:00 -0400
 categories:
   - ai-safety
   - creative-writing
 ---
+
+> Note: this is a thinking out loud post. That means there's a bunch of cruft in here, and in fact I reccomend you don't read it. This post was turned into the next post about task based scaling laws.
 
 # Tasks have different types
 
@@ -102,3 +104,35 @@ I actually think this argument is testable now! We can create/collect some model
 Then, let's run them through the tasks we have now, doing a full set of elicitations, etc. Can we then predict how the next model in sequence will perform? What tasks does it surpass our expectations on? What is broken here?
 
 Doing this now feels like a necessary step for me. Without it, any predictive claim is fundamentally just a shot in the dark - or at the very least, making strong, not-documented assumptions about sub-task decomposition of tasks in `T` that take longer.
+
+# A better metric for ordering tasks
+
+Again, what we fundamentally want is a series of tasks `t1, t2... tn`, where the relative difference in intelligence between each task 
+
+Here's a seperate proposal for how we can get there:
+1. Create an list of tasks `T`
+2. Give 1000 people each of these tasks, and a fixed set of time to complete each task. Note that these timeouts can be different for every task - but should be thoughtfully picked.
+3. Record the % of people who complete the task.
+
+Fundamentally, this changes the assumptions from "the longer it takes someone to complete a task, the more intelligence it takes to complete the task" to "the smaller the percentage of people who complete the task in the timeout, the more intelligence it takes to complete the task."
+
+This first makes really strong assumptions about the type of subtasks in a given task. The second only makes the strong assumption that smarter people work faster, and get stuck less.
+
+
+
+## An intuative understanding of what this metric means
+
+## Other things to think about:
+1. Translating from % of folks that complete a task to 
+1. How to handle tasks with a scaling score? E.g. what about tasks where you can score .17 -- how does this translate? I don't think this is super hard. 
+1. What about labels on our tasks? E.g. what if some folks can write Python and some can't? Can we break these tasks down into sub-types depending on capabilities? Or shoul we just limit ourselves to humans that can use the tools AI's can.
+
+## Why this is worse
+
+1. Potentially, the main challenges here are operational - maybe you need larger samples to have confidence bounds that work well. But I'd need to work through the math, actually!
+1. Saturation. Are there really tasks that .1% of the world can complete in the time-period? If so, is this really a measure of the intelligence of this person, or is this more likely an outlier? There's some long-tail reasoning here, I think. 
+
+
+- TODO: is this actually what happens anyways? I think potentially it is, at least on scores that are incremental?
+- How do they work with incremental scores otherwise? Like - I think they might pretty much be doing this. Or the graph is per minute of time, what the average score is?
+- My feeling is that with incremental scores, you have the same issue - just obsfucated. I need to think about this more.
