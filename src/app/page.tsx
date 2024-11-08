@@ -77,7 +77,7 @@ export default function Home() {
           Nate Rush
         </h1>
         <p className="mt-2 leading-snug font-normal">
-          I’m a product designer and engineer who has spent the past four years scaling my startup from zero to $400,000 in ARR. I’m passionate about software engineering because I love writing code, and I’m dedicated to product design because I want the code I write to impact real-people in the real-world. I’m shifting my focus to building safe AI systems.
+          Joining <a href='https://metr.org'>METR</a> in December to work on safety. Previously cofounding <a href='https://trymito.io'>Mito</a>. Product, engineering, and research ❤️
         </p>
         <div className="container flex flex-row items-center">
           <a href="https://github.com/naterush" className="flex items-center space-x-1 group hover:no-underline">
