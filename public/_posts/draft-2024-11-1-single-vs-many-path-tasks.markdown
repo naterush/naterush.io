@@ -46,6 +46,8 @@ Creating realistic tasks fundamentally is operational. Not research....
 
 # From Realistic Tests to Scaling Metrics
 
+1. There is no absolute measure of task
+
 
 
 
