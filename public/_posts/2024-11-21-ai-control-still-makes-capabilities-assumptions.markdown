@@ -14,6 +14,6 @@ However, Anthropic notes that for AI control, "a full safety case would probably
 
 This is, of course, obvious. If an AI control scheme was able to effectively stop all purposefully exploitable bugs from entering a codebase for an actor with unbounded capabilties, this would be the single most valuable B2B software ever created. And the security community has indeed been trying to create tooling like this for 40+ years - it's the ultimate version of every automatic vulnerability scanner.
 
-So, an AI control safety case strongly relies on capabilities limitations to be valid. The goal is just to safety support models with more capabilities.
+So, an AI control safety case strongly relies on capabilities limitations to be valid. The goal is just to safety support models with more capabilities than the current approach we have of just "they aren't good enough to thoughtfully introduce bugs they could then exploit."
 
 This makes me feel a really robust understanding of model capabilties, what elicitation looks like (and really means), and making sure that all folks have the tools to do this is particularly important -- especially because AI control seems like the most likely first-deployed safety case.
