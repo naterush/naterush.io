@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Let's Talk Tasks"
+title:  "Baby's First CUDA"
 date:   2024-11-13 0:00:00 -0400
 categories:
   - ai-safety
